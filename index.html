@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lui and Shoots</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="Photos/favicon.ico">
+
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+
+.w3-row-padding img {margin-bottom: 12px}
+/* Style the Image Used to Trigger the Modal */
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%; /* Set maximum width to 80% of container */
+  max-height: 90%; /* Set maximum height to 80% of container */
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="/" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="shop" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
+    <a href="contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Book an Appointment</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>PHOTOLIO</b></h1>
+  <p>A wise man once said... <br> "Enjoy your time while you can, for you might die tommorow." <br> This world is fucked and at least that is equal for the lot of us. <br> And maybe, one day we will finally appreciate the freezing of memories.<br>                                                                                        <br>  </p>
+  <p>Available on Instagram <a href="https://www.instagram.com/_ryan.423_/" target=”_blank”>@_ryan.423_</a></p>
+</header>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="enlargeimg">
+  <div id="caption"></div>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img id="myImg" class="enlargeable" src="Photos/Image6.jpeg" alt= "Yesterday." style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image7.jpeg" alt= "Presence." style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image9.jpg" style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image12.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img id="myImg" class="enlargeable" src="Photos/Image1.JPG" alt= "Company." style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image8.jpeg" alt= "Illustrious." style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image5.jpeg" alt= "Sojourning." style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image11.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img id="myImg" class="enlargeable" src="Photos/Image2.jpg" style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image3.jpg" style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image4.jpeg" style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image10.jpg" style="width:100%">
+    <img id="myImg" class="enlargeable" src="Photos/Image13.jpeg" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <a href="https://www.instagram.com/_ryan.423_/" target=”_blank”><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/ryan-lui-0a6653302/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <a href="https://github.com/luiandshoots/luiandshoots.github.io" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+  <p><small>© RYAN LUI</small></p>
+</footer>
+
+<script>
+// Toggle grid padding
+var x = document.getElementById("myGrid");
+if (x.className === "w3-row") {
+  x.className = "w3-row-padding"
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Get all elements with the "enlargeable" class
+var enlargeableImages = document.querySelectorAll('.enlargeable');
+
+// Loop through each image and attach the event handler
+var modal = document.getElementById("myModal");
+var modalImg = document.getElementById("enlargeimg");
+var captionText = document.getElementById("caption");
+
+enlargeableImages.forEach(function(img) {
+  img.addEventListener('click', function() {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  });
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+</body>
+</html>
