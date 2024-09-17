@@ -12,7 +12,10 @@
             margin: 0;
             padding: 0;
         }
-
+        .logo {
+          height: 40px;
+          margin-top: 7px;
+        }
         /* Top Navigation Bar */
         .menu-container {
             background-color: #FFF;
@@ -101,7 +104,7 @@
 </head>
 <body>
 
-    <div class="menu-container">
+    <div class="menu-container" class="box">
         <ul class="menu-items">
             <!-- SHOP Dropdown -->
             <li class="menu-item-container">
@@ -167,6 +170,8 @@
                     <p class="menu-title">ABOUT</p>
                 </a>
             </li>
+
+            <a href="https://kovi.com.hk"><img class="logo" src="img/logot.png"></a>
 
             <!-- Currency Dropdown -->
             <li class="menu-item-container menu-currencies-item">
@@ -268,5 +273,40 @@
             <p class="footer__copy" class="center">&#169; Kovi 2024</p>
         </footer>
 
-</body>
+        <script>
+                // Recursive function to add hover effect and redirect to boxes
+                function addHoverEffectRecursive(index, boxes) {
+                    // Base case: when index is equal to the length of boxes, stop recursion
+                    if (index >= boxes.length) return;
+
+                    const box = boxes[index];
+                    const link = box.querySelector('a');
+
+                    // Expand the box on hover
+                    box.addEventListener('mouseenter', () => {
+                        box.classList.add('expand');
+                    });
+
+                    // Shrink the box on hover leave
+                    box.addEventListener('mouseleave', () => {
+                        box.classList.remove('expand');
+                    });
+
+                    // Redirect when clicking on the link inside the box
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault(); // Prevent default anchor behavior
+                        window.location.href = link.href; // Redirect to the href of the link
+                    });
+
+                    // Recursive call to handle the next box
+                    addHoverEffectRecursive(index + 1, boxes);
+                }
+
+                // Collect all boxes into an array
+                const boxes = document.querySelectorAll('.box');
+
+                // Start the recursive function
+                addHoverEffectRecursive(0, boxes);
+            </script>
+    </body>
 </html>
