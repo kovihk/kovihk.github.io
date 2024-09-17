@@ -1,222 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KOVI - About Us</title>
-  <link rel="icon" type="image/png" href="/img/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>About - KOVI</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Top Navigation Bar */
+        .menu-container {
+            background-color: #FFF;
+            overflow: hidden;
+        }
+
+        .center {
+          margin: auto;
+        }
+
+        /* Flex container for the top row */
+        .menu-items {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling each menu item */
+        .menu-item-container {
+            position: relative;
+        }
+
+        /* Link container for menu items */
+        .menu-link-container {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        /* Menu title text */
+        .menu-title {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        /* Dropdown container hidden by default */
+        .dropdown-container, .shop-currencies-container {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Dropdown items styling */
+        .dropdown-items, .shop-currencies {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling each dropdown item */
+        .dropdown-item-container, .shop-currency-container {
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* Links inside dropdown items */
+        .dropdown-link-container {
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+
+        /* Hover effect on dropdown items */
+        .dropdown-link-container:hover, .shop-currency-title:hover {
+            background-color: #ddd;
+        }
+
+        /* Show dropdown menu on hover */
+        .menu-item-container:hover .dropdown-container, 
+        .menu-currencies-item:hover .shop-currencies-container {
+            display: block;
+        }
+
+        /* Hover effect for the top-level menu items */
+        .menu-link-container:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
-  <!-- ===== BOXICONS ===== -->
-  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" type="text/css" href="/temp/font-settings.css">
-  <link rel="stylesheet" type="text/css" href="/temp/styles.css">
 
-  <!-- ===== CSS ===== -->
-  <link rel="stylesheet" href="/css/styles.css">
-  <div class="menu-container">
-      <ul class="menu-items">
-        
-          <li class="menu-item-container">
-            <a class="menu-link-container" href="https://kovi.com.hk/collections/shop-all">
-              <p class="menu-title">SHOP </p>
-            </a>
-            
-              <div class="dropdown-container">
-                <ul class="dropdown-items">
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/new-in">
-                        <p class="dropdown-title">NEW IN</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/look">
-                        <p class="dropdown-title">LES LOOKS</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/dresses">
-                        <p class="dropdown-title">DRESSES</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/tops">
-                        <p class="dropdown-title">TOPS</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/trousers">
-                        <p class="dropdown-title">TROUSERS</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/skirts">
-                        <p class="dropdown-title">SKIRTS</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/outerwear">
-                        <p class="dropdown-title">OUTERWEAR</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/knit">
-                        <p class="dropdown-title">KNITWEAR</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/swimwear">
-                        <p class="dropdown-title">SWIMWEAR</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/underwear">
-                        <p class="dropdown-title">INTIMATES</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/accessories">
-                        <p class="dropdown-title">ACCESSORIES</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/collections/archive-sales">
-                        <p class="dropdown-title">ARCHIVES</p>
-                      </a>
-                    </li>
-                  
-                </ul>
-              </div>
-            
-          </li>
-        
-          <li class="menu-item-container">
-            <a class="menu-link-container" href="https://kovi.com.hk/pages/collections">
-              <p class="menu-title">COLLECTIONS </p>
-            </a>
-            
-              <div class="dropdown-container">
-                <ul class="dropdown-items">
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/pages/altitude-collection">
-                        <p class="dropdown-title">ALTITUDE</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/pages/beaubourg">
-                        <p class="dropdown-title">BEAUBOURG</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/pages/premiere-danse">
-                        <p class="dropdown-title">PREMIÈRE DANSE</p>
-                      </a>
-                    </li>
-                  
-                    <li class="dropdown-item-container">
-                      <a class="dropdown-link-container" href="https://kovi.com.hk/pages/aqua-love-collection">
-                        <p class="dropdown-title">AQUA LOVE</p>
-                      </a>
-                    </li>
-                  
-                </ul>
-              </div>
-            
-          </li>
-        
-          <li class="menu-item-container">
-            <a class="menu-link-container" href="https://kovi.com.hk/pages/about">
-              <p class="menu-title"> ABOUT </p>
-            </a>
-            
-          </li>
-        
-        <li class="menu-item-container menu-currencies-item">
-          <div class="menu-link-container">
-            <p class="menu-title">
-              GBP
-            </p>
-          </div>
-          <div class="shop-currencies-container">
-            <ul class="shop-currencies">  
-                <li class="shop-currency-container" data-currency="RMB">
-                  <p class="shop-currency-title" title="Chinese Yen (Renminbi)">
-                    RMB
-                    <span>¥</span>
-                  </p>
-                </li>
-            
-                <li class="shop-currency-container" data-currency="GBP" data-active="">
-                  <p class="shop-currency-title" title="British Pound">
-                    GBP
-                    <span>£</span>
-                  </p>
-                </li>
-              
-                
-                <li class="shop-currency-container" data-currency="HKD">
-                  <p class="shop-currency-title" title="Hong Kong Dollar">
-                    HKD
-                    <span>$</span>
-                  </p>
-                </li>
-              
-                <li class="shop-currency-container" data-currency="JPY">
-                  <p class="shop-currency-title" title="Japanese Yen">
-                    JPY
-                    <span>¥</span>
-                  </p>
-                </li>
-                
-                <li class="shop-currency-container" data-currency="TWD">
-                  <p class="shop-currency-title" title="New Taiwan Dollar">
-                    TWD
-                    <span>$</span>
-                  </p>
-                </li>
-              
-                
-                <li class="shop-currency-container" data-currency="USD">
-                  <p class="shop-currency-title" title="United States Dollar">
-                    USD
-                    <span>$</span>
-                  </p>
-                </li>
+    <div class="menu-container">
+        <ul class="menu-items">
+            <!-- SHOP Dropdown -->
+            <li class="menu-item-container">
+                <a class="menu-link-container" href="#">
+                    <p class="menu-title">SHOP</p>
+                </a>
+                <div class="dropdown-container">
+                    <ul class="dropdown-items">
+                        <li class="dropdown-item-container">
+                            <a class="dropdown-link-container" href="https://kovi.com.hk/collections/new-in">
+                                <p class="dropdown-title">NEW IN</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item-container">
+                            <a class="dropdown-link-container" href="https://kovi.com.hk/collections/dresses">
+                                <p class="dropdown-title">DRESSES</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item-container">
+                            <a class="dropdown-link-container" href="https://kovi.com.hk/collections/tops">
+                                <p class="dropdown-title">TOPS</p>
+                            </a>
+                        </li>
+                        <!-- More items can be added as needed -->
+                    </ul>
+                </div>
+            </li>
 
-              
-            </ul>
-          </div>
-        </li>
-        <li class="menu-item-container">
-          <a class="menu-link-container" href="https://kovi.com.hk/search">
-            <p class="menu-title">Search</p>
-          </a>
-        </li>
-        <li class="menu-item-container" data-open-cart="">
-          <div class="menu-link-container">
-            <p class="menu-title">Bag<span class="cart-item-count-semicolon" data-item-count="0">:</span>
-              <span class="cart-item-count header__cart__status" data-item-count="0">0</span>
-            </p>
-          </div>
-        </li>
-      </ul>
+            <!-- COLLECTIONS Dropdown -->
+            <li class="menu-item-container">
+                <a class="menu-link-container" href="https://kovi.com.hk/pages/collections">
+                    <p class="menu-title">COLLECTIONS</p>
+                </a>
+                <div class="dropdown-container">
+                    <ul class="dropdown-items">
+                        <li class="dropdown-item-container">
+                            <a class="dropdown-link-container" href="https://kovi.com.hk/pages/altitude-collection">
+                                <p class="dropdown-title">ALTITUDE</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item-container">
+                            <a class="dropdown-link-container" href="https://kovi.com.hk/pages/beaubourg">
+                                <p class="dropdown-title">BEAUBOURG</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item-container">
+                            <a class="dropdown-link-container" href="https://kovi.com.hk/pages/premiere-danse">
+                                <p class="dropdown-title">PREMIÈRE DANSE</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item-container">
+                            <a class="dropdown-link-container" href="https://kovi.com.hk/pages/aqua-love-collection">
+                                <p class="dropdown-title">AQUA LOVE</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <!-- ABOUT -->
+            <li class="menu-item-container">
+                <a class="menu-link-container" href="https://kovi.com.hk/pages/about">
+                    <p class="menu-title">ABOUT</p>
+                </a>
+            </li>
+
+            <!-- Currency Dropdown -->
+            <li class="menu-item-container menu-currencies-item">
+                <div class="menu-link-container">
+                    <p class="menu-title">GBP</p>
+                </div>
+                <div class="shop-currencies-container">
+                    <ul class="shop-currencies">
+                        <li class="shop-currency-container" data-currency="RMB">
+                            <p class="shop-currency-title" title="Chinese Yen (Renminbi)">RMB<span>¥</span></p>
+                        </li>
+                        <li class="shop-currency-container" data-currency="GBP" data-active="">
+                            <p class="shop-currency-title" title="British Pound">GBP<span>£</span></p>
+                        </li>
+                        <li class="shop-currency-container" data-currency="HKD">
+                            <p class="shop-currency-title" title="Hong Kong Dollar">HKD<span>$</span></p>
+                        </li>
+                        <li class="shop-currency-container" data-currency="JPY">
+                            <p class="shop-currency-title" title="Japanese Yen">JPY<span>¥</span></p>
+                        </li>
+                        <li class="shop-currency-container" data-currency="TWD">
+                            <p class="shop-currency-title" title="New Taiwan Dollar">TWD<span>$</span></p>
+                        </li>
+                        <li class="shop-currency-container" data-currency="USD">
+                            <p class="shop-currency-title" title="United States Dollar">USD<span>$</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <!-- Search -->
+            <li class="menu-item-container">
+                <a class="menu-link-container" href="https://kovi.com.hk/search">
+                    <p class="menu-title">Search</p>
+                </a>
+            </li>
+
+            <!-- Bag -->
+            <li class="menu-item-container" data-open-cart="">
+                <div class="menu-link-container">
+                    <p class="menu-title">Bag<span class="cart-item-count-semicolon" data-item-count="0">:</span>
+                        <span class="cart-item-count header__cart__status" data-item-count="0">0</span>
+                    </p>
+                </div>
+            </li>
+        </ul>
     </div>
-  </div>
-</div>
+                <!--===== NEWSLETTER =====-->
+            <section class="newsletter section" id="subscribed">
+                <div class="newsletter__container bd-grid">
+                    <div class="newsletter__subscribed">
+                        <h2 class="section-title">OUR NEWSLETTER</h2>
+                        <div class="center"><p class="newsletter__description">Promotion new products and sales. Directly to your inbox.</p></div>
+                        <form action="" class="newsletter__form">
+                            <input type="text" class="newsletter__input" placeholder="Enter your email">
+                            <a href="#" class="button">SUBSCRIBE</a>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__box">
+                    <h3 class="footer__title">KOVI</h3>
+                    <p class="footer__deal">Products store</p>
+                    <a href="#"><img src="img/footerstore1.png" alt="" class="footer__store"></a>
+                    <a href="#"><img src="img/footerstore2.png" alt="" class="footer__store"></a>
+                </div>
+
+                <div class="footer__box">
+                    <h3 class="footer__title">EXPLORE</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Home</a></li>
+                        <li><a href="#" class="footer__link">Featured</a></li>
+                        <li><a href="#" class="footer__link">New</a></li>
+                        <li><a href="#" class="footer__link">Subscribe</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__box">
+                    <h3 class="footer__title">OUR SERVICES</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Free Shipping</a></li>
+                        <li><a href="#" class="footer__link">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__box">
+                    <h3 class="footer__title">FOLLOW</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy" class="center">&#169; Kovi 2024</p>
+        </footer>
+
 </body>
 </html>
