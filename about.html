@@ -22,159 +22,78 @@
         /* Top Navigation Bar */
         .menu-container {
             background-color: #FFF;
-            overflow: hidden;
         }
 
         .center {
           margin: auto;
         }
 
-        /* Flex container for the top row */
-        .menu-items {
-            display: flex;
-            justify-content: space-around;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
+        .dropbtn {
+          background-color: #FFF;
+          color: black;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
         }
 
-        /* Styling each menu item */
-        .menu-item-container {
-            position: relative;
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+          position: relative;
+          display: inline-block;
         }
 
-        /* Link container for menu items */
-        .menu-link-container {
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
         }
 
-        /* Menu title text */
-        .menu-title {
-            font-size: 16px;
-            margin: 0;
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
         }
 
-        /* Dropdown container hidden by default */
-        .dropdown-container, .shop-currencies-container {
-            display: none;
-            position: absolute;
-            background-color: white;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #ddd;}
 
-        /* Dropdown items styling */
-        .dropdown-items, .shop-currencies {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {display: block;}
 
-        /* Styling each dropdown item */
-        .dropdown-item-container, .shop-currency-container {
-            padding: 10px;
-            text-align: left;
-        }
-
-        /* Links inside dropdown items */
-        .dropdown-link-container {
-            text-decoration: none;
-            color: black;
-            display: block;
-        }
-
-        /* Hover effect on dropdown items */
-        .dropdown-link-container:hover, .shop-currency-title:hover {
-            background-color: #ddd;
-        }
-
-        /* Show dropdown menu on hover */
-        .menu-item-container:hover .dropdown-container, 
-        .menu-currencies-item:hover .shop-currencies-container {
-            display: block;
-        }
-
-        /* Hover effect for the top-level menu items */
-        .menu-link-container:hover {
-            background-color: #555;
-        }
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {background-color: #3e8e41;}
     </style>
 </head>
+
 <body>
+  <div class="menu-container">
+    <div class="dropdown">
+      <button class="dropbtn">SHOP</button>
+      <div class="dropdown-content">
+        <a href="https://kovi.com.hk/collections/new-in">NEW IN</a>
+        <a href="https://kovi.com.hk/collections/dresses">DRESSES</a>
+        <a href="https://kovi.com.hk/collections/tops">TOPS</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">COLLECTIONS</button>
+      <div class="dropdown-content">
+        <a href="https://kovi.com.hk/pages/altitude-collection">ALTITUDE</a>
+        <a href="https://kovi.com.hk/pages/beaubourg">BEAUBOURG</a>
+        <a href="https://kovi.com.hk/pages/premiere-danse">PREMIÈRE DANSE</a>
+        <a href="https://kovi.com.hk/pages/aqua-love-collection">AQUA LOVE</a>
+      </div>
+    </div>
+    <button class="dropbtn" href="https://kovi.com.hk/pages/about">ABOUT</button>
+    <a href="https://kovi.com.hk"><img class="logo" src="img/logot.png"></a>
 
-    <div class="menu-container" class="box">
-        <ul class="menu-items">
-            <!-- SHOP Dropdown -->
-            <li class="menu-item-container">
-                <a class="menu-link-container" href="#">
-                    <p class="menu-title">SHOP</p>
-                </a>
-                <div class="dropdown-container">
-                    <ul class="dropdown-items">
-                        <li class="dropdown-item-container">
-                            <a class="dropdown-link-container" href="https://kovi.com.hk/collections/new-in">
-                                <p class="dropdown-title">NEW IN</p>
-                            </a>
-                        </li>
-                        <li class="dropdown-item-container">
-                            <a class="dropdown-link-container" href="https://kovi.com.hk/collections/dresses">
-                                <p class="dropdown-title">DRESSES</p>
-                            </a>
-                        </li>
-                        <li class="dropdown-item-container">
-                            <a class="dropdown-link-container" href="https://kovi.com.hk/collections/tops">
-                                <p class="dropdown-title">TOPS</p>
-                            </a>
-                        </li>
-                        <!-- More items can be added as needed -->
-                    </ul>
-                </div>
-            </li>
-
-            <!-- COLLECTIONS Dropdown -->
-            <li class="menu-item-container">
-                <a class="menu-link-container" href="https://kovi.com.hk/pages/collections">
-                    <p class="menu-title">COLLECTIONS</p>
-                </a>
-                <div class="dropdown-container">
-                    <ul class="dropdown-items">
-                        <li class="dropdown-item-container">
-                            <a class="dropdown-link-container" href="https://kovi.com.hk/pages/altitude-collection">
-                                <p class="dropdown-title">ALTITUDE</p>
-                            </a>
-                        </li>
-                        <li class="dropdown-item-container">
-                            <a class="dropdown-link-container" href="https://kovi.com.hk/pages/beaubourg">
-                                <p class="dropdown-title">BEAUBOURG</p>
-                            </a>
-                        </li>
-                        <li class="dropdown-item-container">
-                            <a class="dropdown-link-container" href="https://kovi.com.hk/pages/premiere-danse">
-                                <p class="dropdown-title">PREMIÈRE DANSE</p>
-                            </a>
-                        </li>
-                        <li class="dropdown-item-container">
-                            <a class="dropdown-link-container" href="https://kovi.com.hk/pages/aqua-love-collection">
-                                <p class="dropdown-title">AQUA LOVE</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-
-            <!-- ABOUT -->
-            <li class="menu-item-container">
-                <a class="menu-link-container" href="https://kovi.com.hk/pages/about">
-                    <p class="menu-title">ABOUT</p>
-                </a>
-            </li>
-
-            <a href="https://kovi.com.hk"><img class="logo" src="img/logot.png"></a>
+           
 
             <!-- Currency Dropdown -->
             <li class="menu-item-container menu-currencies-item">
@@ -272,41 +191,5 @@
             </div>
 
         </footer>
-
-        <script>
-                // Recursive function to add hover effect and redirect to boxes
-                function addHoverEffectRecursive(index, boxes) {
-                    // Base case: when index is equal to the length of boxes, stop recursion
-                    if (index >= boxes.length) return;
-
-                    const box = boxes[index];
-                    const link = box.querySelector('a');
-
-                    // Expand the box on hover
-                    box.addEventListener('mouseenter', () => {
-                        box.classList.add('expand');
-                    });
-
-                    // Shrink the box on hover leave
-                    box.addEventListener('mouseleave', () => {
-                        box.classList.remove('expand');
-                    });
-
-                    // Redirect when clicking on the link inside the box
-                    link.addEventListener('click', (e) => {
-                        e.preventDefault(); // Prevent default anchor behavior
-                        window.location.href = link.href; // Redirect to the href of the link
-                    });
-
-                    // Recursive call to handle the next box
-                    addHoverEffectRecursive(index + 1, boxes);
-                }
-
-                // Collect all boxes into an array
-                const boxes = document.querySelectorAll('.box');
-
-                // Start the recursive function
-                addHoverEffectRecursive(0, boxes);
-            </script>
     </body>
 </html>
