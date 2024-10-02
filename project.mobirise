@@ -60,10 +60,10 @@
     "siteUrl": "https://kovi.com.hk",
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x115.png",
-    "mbrsiteDomain": "qqyexesnsm",
+    "mbrsiteDomain": "cn0hh0uxqk",
     "usedWebp": false,
     "cookiesAlert": false,
-    "uniqCompNum": 7,
+    "uniqCompNum": 10,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -71,7 +71,7 @@
     },
     "mcShopcart": {
       "checkoutLabelButton": "Buy Now              ",
-      "email": "kovi.hkg@gmail.com",
+      "email": "isaactengchithang@gmail.com",
       "currency": "USD"
     }
   },
@@ -460,7 +460,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <header>Size</header>\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n      <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"2.5\" condition=\"showLogo\">\n      <header>Show/Hide</header>\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n      <!-- <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked> -->\n      <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n      <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"2\" condition=\"showIcons\">\n      <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n      <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n      <header>Additional</header>\n      <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n      <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n      <header>Color</header>\n      <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n      <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n      <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n\n  <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                   'navbar-expand-lg':!collapsed,\n                   'collapsed':collapsed}\">\n      <div class=\"social-block\">\n        <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\" mbr-if=\"showIcons\">\n          <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon mobi-mbri-letter mobi-mbri\"></span></a>\n          \n          \n          \n        <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon socicon-instagram\"></span></a></div>\n        <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\" mbr-if=\"showIcons\">\n          <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon mobi-mbri-shopping-cart mobi-mbri\"></span></a>\n          \n        </div>\n      </div>\n      <div class=\"navbar-brand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <a href=\"https://kovi.com.hk\">\n                  <img src=\"@PROJECT_PATH@/assets/images/logot-119x34.png\" alt=\"KOVI\" mbr-style=\"{'height': logoSize + 'rem'}\">\n              </a>\n          </span>\n          <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class data-app-selector=\".navbar-caption\" href=\"#\" data-app-placeholder=\"Type Text\"></a></span>\n      </div>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                <a class=\"nav-link link text-primary\" href=\"https://kovi.com.hk\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n              </li>\n              \n              \n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link link dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">COLLECTIONS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LUXURY WATCH STORE</a><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">LUXURY SHOP</a><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">ACCESSORIES</a></div>\n              </li>\n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link link dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">EXPLORE</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AQUA REGIA</a></div>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link link text-primary\" href=\"https://kovi.com.hk/collections\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BUY NOW</a>\n              </li></ul>\n    </div>\n  </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <header>Size</header>\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n      <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"2.5\" condition=\"showLogo\">\n      <header>Show/Hide</header>\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n      <!-- <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked> -->\n      <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n      <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n      <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n      <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n      <header>Additional</header>\n      <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n      <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n      <header>Color</header>\n      <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n      <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n      <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n\n  <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                   'navbar-expand-lg':!collapsed,\n                   'collapsed':collapsed}\">\n      <div class=\"social-block\">\n        <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\" mbr-if=\"showIcons\">\n          <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon mobi-mbri-letter mobi-mbri\"></span></a>\n          \n          \n          \n        </div>\n        <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\" mbr-if=\"showIcons\">\n          <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon mobi-mbri-shopping-cart mobi-mbri\"></span></a>\n          \n        </div>\n      </div>\n      <div class=\"navbar-brand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <a href=\"https://kovi.com.hk\">\n                  <img src=\"@PROJECT_PATH@/assets/images/logot-119x34.png\" alt=\"KOVI\" mbr-style=\"{'height': logoSize + 'rem'}\">\n              </a>\n          </span>\n          <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class data-app-selector=\".navbar-caption\" href=\"#\" data-app-placeholder=\"Type Text\"></a></span>\n      </div>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                <a class=\"nav-link link text-primary\" href=\"https://kovi.com.hk\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n              </li>\n              \n              \n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link link dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">COLLECTIONS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"></a><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">LUXURY SHOP</a><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">ACCESSORIES</a></div>\n              </li>\n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link link dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">EXPLORE</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AQUA REGIA</a></div>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link link text-primary\" href=\"https://kovi.com.hk/collections\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BUY NOW</a>\n              </li></ul>\n    </div>\n  </nav>\n</section>",
           "_cid": "rJMD9bGa21",
           "_anchor": "menu1-j",
           "_sourceTheme": "luxurym4",
@@ -1753,7 +1753,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <header>Size</header>\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n      <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"2.5\" condition=\"showLogo\">\n      <header>Show/Hide</header>\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n      <!-- <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked> -->\n      <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n      <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"2\" condition=\"showIcons\">\n      <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n      <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n      <header>Additional</header>\n      <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n      <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n      <header>Color</header>\n      <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n      <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n      <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n\n  <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                   'navbar-expand-lg':!collapsed,\n                   'collapsed':collapsed}\">\n      <div class=\"social-block\">\n        <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\" mbr-if=\"showIcons\">\n          <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon mobi-mbri-letter mobi-mbri\"></span></a>\n          \n          \n          \n        <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon socicon-instagram\"></span></a></div>\n        <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\" mbr-if=\"showIcons\">\n          <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon mobi-mbri-shopping-cart mobi-mbri\"></span></a>\n          \n        </div>\n      </div>\n      <div class=\"navbar-brand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <a href=\"https://kovi.com.hk\">\n                  <img src=\"@PROJECT_PATH@/assets/images/logot-119x34.png\" alt=\"KOVI\" mbr-style=\"{'height': logoSize + 'rem'}\">\n              </a>\n          </span>\n          <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class data-app-selector=\".navbar-caption\" href=\"#\" data-app-placeholder=\"Type Text\"></a></span>\n      </div>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                <a class=\"nav-link link text-primary\" href=\"https://kovi.com.hk\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n              </li>\n              \n              \n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link link dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">COLLECTIONS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LUXURY WATCH STORE</a><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">LUXURY SHOP</a><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">ACCESSORIES</a></div>\n              </li>\n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link link dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">EXPLORE</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AQUA REGIA</a></div>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link link text-primary\" href=\"https://kovi.com.hk/collections\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BUY NOW</a>\n              </li></ul>\n    </div>\n  </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable>\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <header>Size</header>\n      <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n      <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1.8\" max=\"8\" step=\"0.1\" value=\"2.5\" condition=\"showLogo\">\n      <header>Show/Hide</header>\n      <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n      <!-- <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked> -->\n      <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n      <input type=\"range\" inline title=\"Social Items\" name=\"menuItems\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n      <input type=\"range\" inline title=\"Social Items\" name=\"menuItems2\" min=\"1\" max=\"6\" step=\"1\" value=\"1\" condition=\"showIcons\">\n      <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n      <header>Additional</header>\n      <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n      <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n      <header>Color</header>\n      <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n      <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#ffffff\">\n      <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n  <!-- End block parameters -->\n  </mbr-parameters>\n\n  <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                   'navbar-expand-lg':!collapsed,\n                   'collapsed':collapsed}\">\n      <div class=\"social-block\">\n        <div class=\"social\" mbr-list mbr-list-grow=\"menuItems\" mbr-if=\"showIcons\">\n          <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon mobi-mbri-letter mobi-mbri\"></span></a>\n          \n          \n          \n        </div>\n        <div class=\"social-2\" mbr-list mbr-list-grow=\"menuItems2\" mbr-if=\"showIcons\">\n          <a href=\"#\"><span mbr-icon class=\"icon1 mbr-iconfont socicon mobi-mbri-shopping-cart mobi-mbri\"></span></a>\n          \n        </div>\n      </div>\n      <div class=\"navbar-brand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <a href=\"https://kovi.com.hk\">\n                  <img src=\"@PROJECT_PATH@/assets/images/logot-119x34.png\" alt=\"KOVI\" mbr-style=\"{'height': logoSize + 'rem'}\">\n              </a>\n          </span>\n          <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-2\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class data-app-selector=\".navbar-caption\" href=\"#\" data-app-placeholder=\"Type Text\"></a></span>\n      </div>\n      <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if>\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                <a class=\"nav-link link text-primary\" href=\"https://kovi.com.hk\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">HOME</a>\n              </li>\n              \n              \n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link link dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">COLLECTIONS</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"></a><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">LUXURY SHOP</a><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">ACCESSORIES</a></div>\n              </li>\n              <li class=\"nav-item dropdown\">\n                <a class=\"nav-link link dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">EXPLORE</a><div class=\"dropdown-menu\"><a class=\"dropdown-item\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AQUA REGIA</a></div>\n              </li>\n              <li class=\"nav-item\">\n                <a class=\"nav-link link text-primary\" href=\"https://kovi.com.hk/collections\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BUY NOW</a>\n              </li></ul>\n    </div>\n  </nav>\n</section>",
           "_cid": "rJMD9bGa21",
           "_sourceTheme": "luxurym4",
           "_anchor": "menu1-1",
@@ -1763,968 +1763,220 @@
           "_params": {}
         },
         {
-          "alias": false,
+          "_name": "apricing4",
+          "_sourceTheme": "shopm5",
+          "_customHTML": "<section class=\"pricing4 shopm5\" group=\"Pricing\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\">Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"2\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/shopm5/components/_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#EFEFEF\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#EFEFEF\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Live Online Store Block Templates</b>\n            </h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Vel turpis nunc eget lorem dolor sed</h5>\n        </div>\n        <div class=\"row align-items-stretch items-row {{ contentAlign }}\">\n\n            <div class=\"item features-image col-12 col-md-6 col-lg-3\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/011.jpg\" alt=\"Mobirise Website Builder\">\n                        <div class=\"mbr-section-btn item-footer align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                            <a href class=\"btn btn-danger item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">\n                                Buy Now\n                            </a>\n                        </div>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showText || showCardSubtitle\">\n                        <h5 class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            Interior Design\n                        </h5>\n                        <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b>Designer Chair</b>\n                        </p>\n                        <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            <b>$ 135</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"item features-image col-12 col-md-6 col-lg-3\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/022.jpg\" alt=\"Mobirise Website Builder\">\n                        <div class=\"mbr-section-btn item-footer align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                            <a href class=\"btn btn-danger item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">\n                                Buy Now\n                            </a>\n                        </div>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showText || showCardSubtitle\">\n                        <h5 class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            Interior Design\n                        </h5>\n                        <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b>Bedside Table\n                                </b>\n                        </p>\n                        <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            <b>$ 89</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image col-12 col-md-12 col-lg-6\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/033.jpg\" alt=\"Mobirise Website Builder\">\n                        <div class=\"mbr-section-btn item-footer align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=1.00&item_name=Custom%20Item&currency_code=USD\" class=\"btn btn-danger item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">\n                                Buy Now\n                            </a></div>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showText || showCardSubtitle\">\n                        <h5 class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            Interior Design\n                        </h5>\n                        <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b>Chair to Rest\n                                </b>\n                        </p>\n                        <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            <b>$ 119</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            ".mbr-shop": {
-              "display": "table",
-              "width": "100%"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".mbr-shop .row": {
-              "padding": "0",
-              "margin": "0"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
             },
-            ".mbr-shop .btn-sm": {
-              "margin": "0.2rem 0.2rem"
+            ".mbr-section-head": {
+              "margin-bottom": "32px"
             },
-            ".mbr-shop .shoppingcart-icons": {
-              "z-index": "105 !important"
+            ".mbr-section-title": {
+              "color": "#24262b"
             },
-            ".mbr-shop .shop-title": {
-              "margin-bottom": "18px",
-              "padding-left": "25px",
-              "padding-right": "25px",
-              "display": "inline-block",
-              "max-width": "80%"
+            ".mbr-section-subtitle": {
+              "color": "#24262b"
             },
-            ".mbr-shop .sidebar-title": {
-              "line-height": "25px",
-              "margin-bottom": "1.8rem"
+            ".items-row": {
+              "row-gap": "48px"
             },
-            ".mbr-shop .shopItemsModal_wraper": {
-              "position": "fixed",
-              "display": "none",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "rgba(87, 87, 87, 0.4)",
-              "top": "0",
-              "left": "0",
-              "cursor": "pointer",
-              "z-index": "1040"
-            },
-            ".mbr-shop .card-description": {
-              "cursor": "text",
-              "display": "none"
-            },
-            ".mbr-shop .image-modal": {
-              "padding-left": "0",
-              "padding-right": "0",
-              "text-align": "center",
-              "position": "relative"
-            },
-            ".mbr-shop .image-modal img": {
-              "max-width": "100%",
-              "max-height": "75vh"
-            },
-            ".mbr-shop .hide-modal": {
-              "display": "none"
-            },
-            ".mbr-shop .shopItemsModal": {
-              "cursor": "default",
-              "padding": "50px",
-              "width": "1000px",
-              "max-width": "100%",
-              "background-color": "@bgColor",
-              "z-index": "2000",
-              "overflow": "auto",
-              "position": "fixed"
-            },
-            ".mbr-shop .shopItemsModal p": {
-              "margin-bottom": "0"
-            },
-            ".mbr-shop .shopItemsModal ul": {
-              "margin-bottom": "0"
-            },
-            ".mbr-shop .shopItemsModal .card-description": {
-              "display": "block",
-              "width": "100%"
-            },
-            ".mbr-shop .shopItemsModal .close-modal": {
-              "content": "\"\"",
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "width": "50px",
-              "height": "4px",
-              "background-color": "red",
-              "-webkit-transform": "rotate(45deg)",
-              "transform": "rotate(45deg)"
-            },
-            ".mbr-shop .shopItemsModal .close-modal:before": {
-              "content": "\"\"",
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "width": "50px",
-              "height": "4px",
-              "background-color": "red",
-              "-webkit-transform": "rotate(-45deg)",
-              "transform": "rotate(-45deg)"
-            },
-            ".mbr-shop .test-overlay": {
-              "position": "absolute",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "rgba(0, 0, 0, 0.5)"
-            },
-            ".mbr-shop .filter-by-pu, .mbr-shop .filter-by-pd, .mbr-shop .filter-by-d": {
-              "display": "inline-block",
-              "margin-right": "3px"
-            },
-            ".mbr-shop .sort-buttons": {
-              "padding-bottom": "1rem",
-              "margin-right": "13px",
-              "text-align": "right"
-            },
-            ".galleryItem": {
-              "background": "transparent !important"
-            },
-            ".mbr-shop .galleryItem:before": {
-              "width": "0 !important",
-              "height": "0 !important"
-            },
-            ".mbr-shop .modal-dialog": {
-              "max-width": "700px"
-            },
-            ".mbr-shop .mbr-gallery-item": {
-              "left": "0 !important",
-              "top": "0 !important",
-              "vertical-align": "top",
-              "position": "relative !important",
-              "-webkit-transform": "none !important",
-              "transform": "none !important",
-              "padding": "15px",
-              "width": "33.333%"
-            },
-            ".mbr-shop .galleryItem h4, .mbr-shop .carousel-item h4": {
-              "font-style": "normal",
-              "line-height": "1",
-              "text-transform": "none",
-              "letter-spacing": "-1px",
-              "word-spacing": "0",
-              "margin-bottom": "0.3rem",
-              "padding-top": "15px",
-              "transition": "color 0.5s"
-            },
-            ".mbr-shop .galleryItem h5, .mbr-shop .carousel-item h5": {
-              "font-style": "italic",
-              "font-weight": "400",
-              "line-height": "22.36px",
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "word-spacing": "0"
-            },
-            ".mbr-shop .galleryItem p, .mbr-shop .carousel-item p": {
-              "font-style": "italic",
-              "font-weight": "400",
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "word-spacing": "0px",
-              "text-align": "center",
-              "display": "inline"
-            },
-            ".mbr-shop .item-button": {
-              "text-align": "center"
-            },
-            ".mbr-shop .modalButton": {
-              "display": "inline-block",
-              "float": "right",
-              "margin-right": "10px"
-            },
-            ".mbr-shop .modalButton.btn-success": {
-              "right": "15%"
-            },
-            ".mbr-shop .sidebar": {
-              "margin-bottom": "30px",
-              "position": "relative"
-            },
-            ".mbr-shop .sidebar-block": {
-              "position": "relative"
-            },
-            ".mbr-shop .sidebar-background:after": {
-              "content": "\"\"",
-              "position": "absolute",
-              "width": "100%",
-              "height": "100%",
-              "background-color": "@sidebarBg",
-              "top": "-20px",
-              "right": "3px"
-            },
-            ".mbr-shop .bestsellers": {
-              "padding-left": "0",
-              "padding-right": "0",
-              "position": "relative",
-              "margin-bottom": "20px"
-            },
-            ".mbr-shop .bestsellers .onsale": {
-              "top": "-15px"
-            },
-            ".mbr-shop .bestsellers .price-block": {
-              "padding-top": "5px",
-              "text-align": "left",
-              "line-height": "1"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item": {
-              "width": "100%"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item img": {
-              "width": "80px",
-              "float": "left",
-              "margin-right": "20px"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item h4": {
-              "text-align": "left",
-              "padding-bottom": "5px",
-              "line-height": "1"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item h5": {
-              "text-align": "left",
-              "display": "none"
-            },
-            ".mbr-shop .bestsellers .mbr-gallery-item p": {
-              "text-align": "left"
-            },
-            ".mbr-shop .bestsellers .btn": {
-              "display": "none"
-            },
-            ".mbr-shop .bestsellers-img": {
-              "display": "inline-block",
-              "width": "80px",
-              "height": "80px",
-              "overflow": "hidden"
-            },
-            ".mbr-shop .bestsellers-title": {
-              "display": "inline-block"
-            },
-            ".mbr-shop .onsale": {
-              "position": "absolute",
-              "display": "block",
-              "transition": "color 0.3s ease",
-              "text-align": "center",
-              "z-index": "95",
-              "top": "30px",
-              "left": "30px",
-              "line-height": "17px",
-              "padding": "5px 15px 5px",
-              "background": "@saleBg",
-              "border-radius": "30px",
-              "font-weight": "400",
-              "font-style": "normal",
-              "text-transform": "none",
-              "letter-spacing": "0px",
-              "color": "contrast(@saleBg)"
-            },
-            ".mbr-shop .mbr-gallery-item__hided": {
-              "display": "none"
-            },
-            ".mbr-shop .mbr-gallery-item__hided h4, .mbr-shop .mbr-gallery-item__hided h5, .mbr-shop .mbr-gallery-item__hided p": {
-              "display": "none"
-            },
-            ".mbr-shop .mbr-gallery-item__hided .btn": {
-              "display": "none"
-            },
-            ".mbr-shop .galleryItem .price-block": {
-              "display": "block"
-            },
-            ".mbr-shop .galleryItem .price-block span": {
-              "font-style": "normal",
-              "line-height": "1",
-              "text-transform": "none",
-              "letter-spacing": "-1px",
-              "word-spacing": "0"
-            },
-            ".mbr-shop .mbr-gallery-filter": {
-              "padding-left": "0",
-              "text-align": "left",
-              "padding-top": "0"
-            },
-            ".mbr-shop .mbr-gallery-filter ul li.active": {
-              "background-color": "transparent",
-              "font-weight": "bold"
-            },
-            ".mbr-shop .mbr-gallery-filter ul li:hover": {
-              "background-color": "transparent"
-            },
-            ".mbr-shop .range-slider": {
-              "padding-bottom": "25px"
-            },
-            ".mbr-shop .filter-cost": {
-              "display": "block",
-              "vertical-align": "middle",
-              "max-width": "250px",
-              "text-align": "left",
-              "position": "relative",
-              "margin-bottom": "30px"
-            },
-            ".mbr-shop .filter-cost p": {
-              "margin-bottom": "10px",
-              "font-size": "16px",
-              "line-height": "21px",
-              "color": "#666666",
-              "font-weight": "bold"
-            },
-            ".mbr-shop .price-controls": {
-              "position": "relative",
-              "height": "36px",
-              "margin-bottom": "10px",
-              "border-radius": "2px",
-              "font-size": "0"
-            },
-            ".mbr-shop .price-controls label": {
-              "display": "inline-block",
-              "width": "50%",
-              "font-size": "14px",
-              "line-height": "32px",
-              "color": "#666666",
-              "font-weight": "normal",
-              "cursor": "pointer",
-              "margin-bottom": "0"
-            },
-            ".mbr-shop .price-controls input": {
-              "width": "100%",
-              "background-color": "transparent",
-              "border": "none",
-              "line-height": "31px",
-              "height": "31px",
-              "text-align": "center",
-              "-webkit-user-select": "none",
-              "-ms-user-select": "none",
-              "user-select": "none"
-            },
-            ".mbr-shop .range-controls": {
-              "position": "relative"
-            },
-            ".mbr-shop .range-controls .scale": {
-              "width": "100%",
-              "height": "5px",
-              "background-color": "rgba(190, 190, 190, 0.3)"
-            },
-            ".mbr-shop .range-controls .bar": {
-              "margin-left": "0",
-              "width": "100%",
-              "height": "5px",
-              "background-color": "#66458e"
-            },
-            ".mbr-shop .toggle": {
-              "-webkit-box-shadow": "0 0 0 3px rgba(0, 0, 0, 0.15)",
-              "box-shadow": "0 0 0 3px rgba(0, 0, 0, 0.15)",
-              "position": "absolute",
-              "top": "-9px",
-              "width": "7px",
-              "height": "7px",
-              "border": "8px solid #ffffff",
-              "border-radius": "100%",
-              "box-sizing": "content-box",
-              "background-color": "#66458e",
+            ".item": {
               "cursor": "pointer"
             },
-            ".mbr-shop .toggle:hover, .mbr-shop .toggle:active": {
-              "background-color": "#c0a375"
+            ".item:focus, span:focus": {
+              "outline": "none"
             },
-            ".mbr-shop .min-toggle": {
-              "left": "0"
-            },
-            ".mbr-shop .max-toggle": {
-              "right": "0"
-            },
-            ".mbr-shop .hided-by-price": {
-              "display": "none"
-            },
-            ".mbr-shop .text-modal": {
-              "padding-right": "30px",
-              "padding-left": "30px"
-            },
-            ".mbr-shop .text-modal .item-button": {
-              "text-align": "left !important"
-            },
-            ".mbr-shop .text-modal .price-block": {
-              "line-height": "1",
-              "border-bottom": "1px dotted #d6d6d6"
-            },
-            ".mbr-shop .text-modal .price-block p": {
-              "display": "inline"
-            },
-            ".mbr-shop .text-modal .price-block span": {
-              "display": "inline",
-              "font-weight": "300",
-              "padding": "10px 0 20px 0"
-            },
-            ".card-description": {
-              "padding-top": "16px",
-              "display": "block",
-              "font-size": "16px",
-              "line-height": "24px",
-              "margin-bottom": "20px",
-              "color": "#132c70"
-            },
-            ".mbr-shop .modal-control-panel": {
-              "padding-right": "0"
-            },
-            ".mbr-shop .modal-cb": {
-              "display": "inline-block",
-              "float": "right",
-              "margin-right": "10px",
-              "margin-left": "10px"
-            },
-            ".mbr-shop .shopItemsModalBg": {
-              "width": "100%",
-              "height": "100%"
-            },
-            ".mbr-shop .close-modal-wrapper": {
-              "cursor": "pointer",
-              "width": "40px",
-              "height": "40px",
-              "position": "absolute",
-              "top": "0",
-              "right": "0"
-            },
-            ".mbr-shop .close-modal-wrapper:after": {
-              "content": "\"\"",
-              "position": "absolute",
-              "width": "40px",
-              "height": "3px",
-              "background-color": "#cccccc",
-              "top": "50%",
-              "right": "5%",
-              "-webkit-transform": "rotate(-45deg)",
-              "transform": "rotate(-45deg)"
-            },
-            ".mbr-shop .close-modal-wrapper:before": {
-              "content": "\"\"",
-              "position": "absolute",
-              "width": "3px",
-              "height": "40px",
-              "background-color": "#cccccc",
-              "right": "50%",
-              "top": "5%",
-              "-webkit-transform": "rotate(-45deg)",
-              "transform": "rotate(-45deg)"
-            },
-            ".mbr-shop .closeModal": {
-              "position": "absolute",
-              "top": "0",
-              "right": "0"
-            },
-            ".mbr-shop .galleryItem .sidebar_wraper": {
-              "text-align": "center",
-              "padding-bottom": "15px"
-            },
-            ".mbr-shop .shopItemsModal .sidebar_wraper": {
-              "text-align": "left",
-              "opacity": "1",
-              "display": "block"
-            },
-            ".mbr-shop .item_overlay": {
-              "position": "absolute",
-              "width": "100%",
+            ".item-wrapper": {
+              "position": "relative",
+              "display": "flex",
+              "flex-direction": "column",
               "height": "100%",
-              "z-index": "99",
-              "background": "transparent"
+              "border-radius": "0",
+              "@media (min-width: 768px)": {
+                "&:hover": {
+                  ".mbr-section-btn": {
+                    "opacity": "1 !important",
+                    "bottom": "1.5rem !important",
+                    "pointer-events": "auto !important"
+                  }
+                }
+              }
             },
-            ".mbr-shop .style_overlay": {
-              "position": "absolute",
+            ".item-img": {
+              "position": "relative",
+              "overflow": "hidden",
+              "flex-shrink": "0",
               "width": "100%",
-              "height": "100%"
-            },
-            ".mbr-shop .price-range": {
-              "display": "none"
-            },
-            ".mbr-shop .price-range-reset": {
-              "display": "none"
-            },
-            ".mbr-shop .bestsellers .item-button": {
-              "display": "none !important"
-            },
-            ".mbr-shop .range-slider h4": {
-              "margin-bottom": "1.8rem"
-            },
-            ".mbr-shop .mbr-gallery-filter ul": {
-              "padding-left": "0px",
-              "display": "inline-block",
-              "list-style": "none",
-              "margin-bottom": "0px"
-            },
-            ".mbr-shop .categories:after": {
-              "content": "\"\"",
-              "display": "table",
-              "clear": "both"
-            },
-            "@media (min-width: 767px) and (max-width: 1100px)": {
-              ".mbr-shop .col-md-9": {
-                "width": "100%"
-              },
-              ".mbr-shop .col-md-3": {
-                "width": "100%"
-              },
-              ".mbr-shop .sidebar-background:after": {
-                "top": "0"
-              },
-              ".mbr-shop .bestseller-block": {
+              "img": {
                 "width": "100%",
-                "margin": "0",
-                "display": "inline-block",
-                "float": "left",
-                "padding-top": "15px"
-              },
-              ".mbr-shop .range-slider": {
-                "width": "49%",
-                "margin": "0",
-                "display": "inline-block",
-                "float": "right",
-                "padding-top": "15px"
-              },
-              ".mbr-shop .bestsellers": {
-                "width": "100%"
-              },
-              ".mbr-shop .bestsellers .mbr-gallery-item": {
-                "width": "49%",
-                "display": "inline-block"
-              },
-              ".mbr-shop .sidebar-categories": {
-                "width": "49%",
-                "margin": "0",
-                "display": "inline-block",
-                "padding-top": "15px"
-              },
-              ".mbr-shop .price-range": {
-                "max-width": "250px",
-                "text-align": "center"
-              },
-              ".clearfix:after": {
-                "content": "\"\"",
-                "display": "table",
-                "clear": "both"
+                "height": "~\"calc(110px * @{imageHeight})\"",
+                "object-fit": "cover"
               }
             },
-            "@media (max-width: 991px) and (min-width: 768px)": {
-              ".mbr-shop .mbr-gallery-item": {
-                "width": "33%"
-              }
-            },
-            "@media (max-width: 500px)": {
-              ".mbr-shop .shopItemsModal": {
-                "padding": "50px 10px 10px 10px"
-              },
-              ".mbr-shop .shop-title": {
-                "max-width": "100%"
-              },
-              ".mbr-shop .mbr-gallery-item": {
-                "width": "100%"
-              }
-            },
-            "@media (max-width: 1200px)": {
-              ".mbr-shop .sort-buttons": {
-                "text-align": "center",
-                "margin-right": "0 !important"
-              },
-              ".wrapper-shop-items": {
-                "order": "1"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".mbr-shop .image-modal": {
-                "text-align": "center"
-              },
-              ".mbr-shop .image-modal img": {
-                "max-height": "50vh",
-                "width": "auto",
-                "max-width": "100%"
-              },
-              ".mbr-shop .shopItemsModal": {
-                "top": "15%",
-                "bottom": "70px",
-                "left": "10%",
-                "width": "80%"
-              },
-              ".mbr-shop .shopItemsModal .image-modal": {
-                "padding-right": "0"
-              },
-              ".mbr-shop .sidebar-background:after": {
-                "top": "-1%"
-              },
-              ".container-fluid": {
-                "padding": "0 0rem"
-              }
-            },
-            "@media (max-width: 1100px)": {
-              ".mbr-shop .shopItemsModal": {
-                "max-height": "85vh",
-                "width": "90%",
-                "left": "5%",
-                "margin-left": "0"
-              },
-              ".mbr-shop .sort-buttons": {
-                "margin-right": "21px"
-              },
-              ".mbr-shop .sidebar-background:after": {
-                "right": "0",
-                "width": "100%"
-              },
-              ".mbr-shop .text-modal .card-description": {
-                "width": "100%"
-              },
-              ".mbr-shop .text-modal .price-block": {
-                "width": "100%"
-              },
-              ".mbr-shop .text-modal h4": {
-                "padding-top": "30px"
-              }
-            },
-            ".shopItemsModal_wraper .mbr-section-btn": {
-              "display": "block !important"
-            },
-            ".range-slider .mbr-section-btn": {
-              "margin": "0"
-            },
-            ".oldprice": {
-              "color": "#767676",
-              "padding-left": "0.8rem !important",
-              "text-decoration": "line-through"
-            },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".shopItemsModal.row": {
-                "position": "absolute !important",
-                "top": "calc(50% ~\"-\" 300px) !important",
-                "left": "calc(50% ~\"-\" 500px) !important"
-              }
-            },
-            "& when (@shop__showPriceRange)": {
-              ".range-controls": {
-                "display": "block !important"
-              }
-            },
-            "& when (@shop__showSortButtons)": {
-              ".sort-buttons": {
-                "display": "block !important"
-              }
-            },
-            ".mbr-gallery-item .sidebar_wraper": {
-              "background-color": "@cardBottom",
-              "padding-left": "15px",
-              "padding-right": "15px"
-            },
-            ".sidebar .sidebar_wraper": {
-              "background-color": "@sidebarBg"
-            },
-            ".mbr-gallery-item .price-block": {
-              "text-align": "left"
-            },
-            ".big-container": {
-              "max-width": "1326px",
-              "margin": "0 auto",
-              "padding-left": "15px",
-              "padding-right": "15px"
-            },
-            ".mbr-shop .mbr-gallery-filter ul li": {
-              "padding": "7px 16px 5px",
-              "margin": "4px 8px 4px 0",
-              "border": "1px solid",
-              "border-radius": "100px"
-            },
-            ".mbr-gallery-item .sidebar_wraper .item-title": {
-              "text-align": "left",
-              "font-weight": "300",
-              "font-family": "\"IBM Plex Sans\", sans-serif",
-              "font-size": "1.2rem"
-            },
-            ".sidebar": {
-              "display": "flex",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column"
-            },
-            ".range-slider": {
-              "-webkit-order": "1",
-              "order": "1"
-            },
-            ".sidebar-categories": {
-              "-webkit-order": "2",
-              "order": "2"
-            },
-            ".bestseller-block": {
-              "-webkit-order": "3",
-              "order": "3"
-            },
-            ".categories": {
-              "padding": "0"
-            },
-            ".sidebar-title": {
-              "font-weight": "bold"
-            },
-            ".img_wraper": {
-              "transition": "1s"
-            },
-            ".mbr-gallery-item:hover .sidebar_wraper": {
-              "opacity": "1",
-              "transform": "translateY(-0.3rem)"
-            },
-            ".mbr-gallery-item:hover .img_wraper": {
-              "transform": "translateY(-0.5rem)"
-            },
-            ".sidebar_wraper": {
-              "display": "flex",
-              "align-items": "flex-end",
-              "justify-content": "space-between",
-              "opacity": "1",
-              "transition": "0.5s"
-            },
-            ".shop-items": {
-              ".mbr-gallery .mbr-gallery-item > div": {
-                "background": "transparent !important"
-              }
-            },
-            ".container-fluid": {
-              "max-width": "1300px"
-            },
-            ".shop-item-price": {
-              "font-weight": "300",
-              "font-family": "\"IBM Plex Sans\", sans-serif",
-              "font-size": "1.2rem"
-            },
-            "@media (max-width: 991px)": {
-              ".sidebar_wraper": {
-                "opacity": "1"
+            ".mbr-section-btn": {
+              "position": "absolute",
+              "bottom": "0.5rem",
+              "left": "1rem",
+              "max-width": "~\"calc(100% - 32px)\"",
+              "margin": "0 !important",
+              "padding": "0",
+              "opacity": "0",
+              "pointer-events": "none",
+              "transition": "all .3s",
+              "@media (max-width: 767px)": {
+                "opacity": "1 !important",
+                "bottom": "1.5rem !important",
+                "pointer-events": "auto !important"
               },
               ".btn": {
-                "margin": "0",
-                "padding": "0.2rem"
+                "margin": "0 !important"
               }
             },
-            "@media (min-width: 767px)": {
-              ".container-fluid": {
-                "padding": "0 1rem"
-              }
+            ".item-content": {
+              "display": "flex",
+              "justify-content": "flex-start",
+              "flex-direction": "column",
+              "flex-grow": "1",
+              "padding": "1rem 0 0"
             },
-            "@media (min-width: 991px)": {
-              ".btn": {
-                "margin": "0",
-                "padding": "0.5rem 1.4rem"
-              }
+            ".item-title": {
+              "color": "#24262b"
             },
-            "h4": {
-              "font-weight": "300"
+            ".item-subtitle": {
+              "color": "#24262b",
+              "margin-top": "2px"
             },
-            ".btn": {
-              "font-weight": "300",
-              "border-width": "1px"
+            ".mbr-text": {
+              "color": "#24262b"
             }
           },
-          "_name": "shop1",
-          "_sourceTheme": "luxurym4",
-          "_customHTML": "<section class=\"mbr-gallery shop1 luxurym4_shop1\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <header>Color</header>\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#132c70\">\n        <input type=\"color\" title=\"Card Bottom Color\" name=\"cardBottom\" value=\"#f8e5e4\">\n        <input type=\"color\" title=\"Sidebar Bg\" name=\"sidebarBg\" value=\"#F6F4F1\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f8e5e4\">\n\n        <input type=\"shop\" title=\"Shop\" name=\"shop\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <!-- <div class=\"big-container\"> -->\n    <div class=\"container-fluid\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" mbr-shop-minimal></div>\n    </div>\n\n</section>",
-          "_cid": "upp2pFlciY",
-          "_anchor": "shop1-3",
-          "_protectedParams": [
-            "shop__showSidebar",
-            "shop__reverseSidebar",
-            "shop__showSortButtons",
-            "shop__showBestSellers",
-            "shop__showPriceRange",
-            "shop__showTags",
-            "text_all",
-            "sidebar1",
-            "sidebar2",
-            "sidebar3",
-            "shop__filtersTextStyle",
-            "buttons_default_class",
-            "filter_by_d",
-            "filter_by_pu",
-            "filter_by_pd",
-            "shop"
-          ],
+          "_cid": "upFPSvrMUD",
+          "_anchor": "apricing4-7",
+          "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {
-            "shop__showSidebar": false,
-            "shop__reverseSidebar": false,
-            "shop__showSortButtons": false,
-            "shop__showBestSellers": false,
-            "shop__showPriceRange": false,
-            "shop__showTags": true,
-            "text_all": "All",
-            "sidebar1": "Best Sellers",
-            "sidebar2": "Price Range",
-            "sidebar3": "Tags",
-            "shop__filtersTextStyle": "display-7",
-            "filter_by_d": "<a class=\"btn btn-sm btn-primary disableSortButton\" href=\"\">Default sorting</a>",
-            "filter_by_pu": "<a class=\"btn btn-sm btn-primary-outline disableSortButton\" href=\"\">Price: low to high</a>",
-            "filter_by_pd": "<a class=\"btn btn-sm btn-primary-outline disableSortButton\" href=\"\">Price: high to low</a>",
-            "shop": [
-              {
-                "tags": "Awesome",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Brown Glasses",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$93",
-                "oldPriceValue": "$186",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=10.00&item_name=Brown%20Shoes&currency_code=USD\" data-app-placeholder=\"Type Text\" class=\"btn btn-primary display-7\">ADD TO CART</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop0.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop0.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-4",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Wonderful",
-                "bestSeller": true,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Men's Shoes",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$3",
-                "oldPriceValue": "$6",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\" class=\"btn btn-primary display-7\">ADD TO CART</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop1.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-4",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Creative",
-                "bestSeller": false,
-                "onSale": true,
-                "oldPrice": true,
-                "itemTitle": "Blue Backpack",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$27",
-                "oldPriceValue": "$54",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop2.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop2.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-4",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Red Snapback",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$72",
-                "oldPriceValue": "$144",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop3.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop3.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-4",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Black Glasses",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$82",
-                "oldPriceValue": "$164",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop4.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop4.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-4",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Women's Shoes",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$65",
-                "oldPriceValue": "$130",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop5.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop5.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-4",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Pink Backpack",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$95",
-                "oldPriceValue": "$190",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop6.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop6.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-4",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
-                "itemTitle": "Red Cap",
-                "itemDescription": "Casual shoes (contact us for sizing)<br><br><ul><li>Lightweight textured fabric</li> <li>Rounded v-neckline</li> <li>Pom pom trims</li> <li>Regular fit – true to size</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
-                "itemPriceTitle": "From: ",
-                "itemPrice": "$12",
-                "oldPriceValue": "$24",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">Buy now!</a>",
-                "image": "@PROJECT_PATH@/assets/images/shop7.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/shop7.jpg",
-                "customStyle5": "display-5",
-                "customStyle7": "display-7",
-                "customStyleSale": "display-4",
-                "customStyleTags": "display-4",
-                "caption": "Type caption here",
-                "active": false
+          "_params": {}
+        },
+        {
+          "_name": "apricing5",
+          "_sourceTheme": "shopm5",
+          "_customHTML": "<section class=\"pricing5 shopm5\" group=\"Pricing\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\">2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\" selected>4</option>\n        </select>\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\">Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"3\" max=\"12\" step=\"1\" value=\"10\">\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/shopm5/components/_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#EFEFEF\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#EFEFEF\"\n            condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\"\n            condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\"\n                mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Live Online Store Block Templates</b>\n            </h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\"\n                mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Vel turpis nunc eget lorem dolor sed</h5>\n        </div>\n        <div class=\"row align-items-stretch items-row {{ contentAlign }}\">\n\n            <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/011.jpg\" alt=\"Mobirise Website Builder\">\n                        <div class=\"mbr-section-btn align-center align-center\" mbr-if=\"showButtons\"\n                             data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                            <a href class=\"btn btn-danger item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">\n                                Buy Now\n                            </a>\n                        </div>\n                    </div>\n                    <div class=\"item-content align-center\" mbr-if=\"showCardTitle || showText || showCardSubtitle\">\n                        <h5 class=\"item-title mbr-fonts-style mb-0 \" mbr-theme-style=\"display-7\"\n                            data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            Interior Design\n                        </h5>\n                        <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\"\n                            data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b>Designer Chair</b>\n                        </p>\n                        <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\"\n                            data-app-selector=\".mbr-text\">\n                            <b>$ 135</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/022.jpg\" alt=\"Mobirise Website Builder\">\n                        <div class=\"mbr-section-btn align-center align-center\" mbr-if=\"showButtons\"\n                             data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                            <a href class=\"btn btn-danger item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">\n                                Buy Now\n                            </a>\n                        </div>\n                    </div>\n                    <div class=\"item-content align-center\" mbr-if=\"showCardTitle || showText || showCardSubtitle\">\n                        <h5 class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\"\n                            data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            Interior Design\n                        </h5>\n                        <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\"\n                           data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b>Bedside Table\n                                </b>\n                        </p>\n                        <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\"\n                           data-app-selector=\".mbr-text\">\n                            <b>$ 89</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/033.jpg\" alt=\"Mobirise Website Builder\">\n                        <div class=\"mbr-section-btn align-center align-center\" mbr-if=\"showButtons\"\n                             data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                            <a href class=\"btn btn-danger item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">\n                                Buy Now\n                            </a>\n                        </div>\n                    </div>\n                    <div class=\"item-content align-center\" mbr-if=\"showCardTitle || showText || showCardSubtitle\">\n                        <h5 class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\"\n                            data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            Interior Design\n                        </h5>\n                        <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\"\n                           data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b>Chair to Rest\n                                </b>\n                        </p>\n                        <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\"\n                           data-app-selector=\".mbr-text\">\n                            <b>$ 119</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image col-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/04.jpg\" alt=\"Mobirise Website Builder\">\n                        <div class=\"mbr-section-btn  align-center align-center\" mbr-if=\"showButtons\"\n                             data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                            <a href class=\"btn btn-danger item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">\n                                Buy Now\n                            </a>\n                        </div>\n                    </div>\n                    <div class=\"item-content align-center\" mbr-if=\"showCardTitle || showText || showCardSubtitle\">\n                        <h5 class=\"item-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\"\n                            data-app-selector=\".item-title\" mbr-if=\"showCardTitle\">\n                            Interior Design\n                        </h5>\n                        <p class=\"item-subtitle mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\"\n                           data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">\n                            <b>Decorative Pillow\n                                </b>\n                        </p>\n                        <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\"\n                           data-app-selector=\".mbr-text\">\n                            <b>$ 15</b>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
               }
-            ]
-          }
+            },
+            ".mbr-section-head": {
+              "margin-bottom": "32px"
+            },
+            ".mbr-section-title": {
+              "color": "#24262b"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#24262b"
+            },
+            ".items-row": {
+              "row-gap": "48px"
+            },
+            ".item": {
+              "cursor": "pointer"
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "display": "flex",
+              "flex-direction": "column",
+              "height": "100%",
+              "border-radius": "0",
+              "@media (min-width: 768px)": {
+                "&:hover": {
+                  ".mbr-section-btn": {
+                    "opacity": "1 !important",
+                    "bottom": "2rem !important",
+                    "pointer-events": "auto !important"
+                  }
+                }
+              }
+            },
+            ".item-img": {
+              "position": "relative",
+              "overflow": "hidden",
+              "flex-shrink": "0",
+              "width": "100%"
+            },
+            "img": {
+              "width": "100%",
+              "aspect-ratio": "~\"calc(404 / (75 * @{imageHeight}))\"",
+              "object-fit": "cover"
+            },
+            ".mbr-section-btn": {
+              "position": "absolute",
+              "bottom": "1rem",
+              "left": "1rem",
+              "width": "~\"calc(100% - 32px)\"",
+              "margin": "0 !important",
+              "padding": "0",
+              "opacity": "0",
+              "pointer-events": "none",
+              "transition": "all .3s",
+              "@media (max-width: 767px)": {
+                "opacity": "1 !important",
+                "bottom": "1.5rem !important",
+                "pointer-events": "auto !important"
+              },
+              ".btn": {
+                "margin": "0 !important"
+              }
+            },
+            ".item-content": {
+              "display": "flex",
+              "justify-content": "flex-start",
+              "flex-direction": "column",
+              "flex-grow": "1",
+              "padding": "1.5rem 0 0"
+            },
+            ".item-title": {
+              "color": "#24262b"
+            },
+            ".item-subtitle": {
+              "color": "#24262b",
+              "margin-top": "2px"
+            },
+            ".mbr-text": {
+              "color": "#24262b"
+            }
+          },
+          "_cid": "upFU7hMlQa",
+          "_anchor": "apricing5-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,
